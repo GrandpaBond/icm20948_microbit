@@ -1,0 +1,30 @@
+{
+    "name": "ICM20948_microbit",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "icm20948.ts",
+        "trace.ts",
+        "dmpimg.ts",
+        "i2c.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
